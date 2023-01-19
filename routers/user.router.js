@@ -6,8 +6,8 @@ userRouter.get("/auth", (req, res) => {
 });
 
 userRouter.post("/authpost", (req, res) => {
-    const { username } = req.body;
-    console.log("username is " + username);
+  const { username } = req.body;
+  console.log("username is " + username);
 });
 
 export default userRouter;
